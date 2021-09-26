@@ -12,7 +12,8 @@ Vehicle Registration numbers for all cars which are parked by the driver of a ce
 Slot number in which a car with a given vehicle registration plate is parked. 
 Slot numbers of all slots where cars of drivers of a particular age are parked.
 
-
+TO RUN THIS CODE PLEASE USE THIS LINK: https://replit.com/@MeetanshiGupta/PARKINGLOTDESIGN#./Main.java
+Use below sample input for referrence.
 SAMPLE INPUT/OUTPUT
 
 
