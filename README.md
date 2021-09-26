@@ -11,3 +11,54 @@ Due to government regulation, the system should provide us with the ability to f
 Vehicle Registration numbers for all cars which are parked by the driver of a certain age,
 Slot number in which a car with a given vehicle registration plate is parked. 
 Slot numbers of all slots where cars of drivers of a particular age are parked.
+
+
+SAMPLE INPUT/OUTPUT
+
+
+INPUT: Create_parking_lot 6
+OUTPUT: Created parking lot with 6 slots
+
+INPUT: Park KA-01-HH-1234 driver_age 21
+OUTPUT: Allocated slot number: 1
+
+
+INPUT: Park PB-01-HH-1234 driver_age 21
+OUTPUT: Allocated slot number: 2
+
+INPUT: Slot_numbers_for_driver_of_age 21
+OUTPUT: 1,2
+
+INPUT: Park PB-01-TG-2341 driver_age 40
+OUTPUT: Allocated slot number: 3
+
+INPUT: Slot_number_for_car_with_number PB-01-HH-1234
+OUTPUT: 2
+
+INPUT: Leave 2
+OUTPUT: Slot number 2 is free
+
+INPUT: Park HR-29-TG-3098 driver_age 39
+OUTPUT: Allocated slot number: 2
+
+INPUT: Vehicle_registration_number_for_driver_of_age 18
+OUTPUT: Not found
+
+
+INPUT: Vehicle_registration_number_for_driver_of_age 39
+OUTPUT: HR-29-TG-3098
+
+INPUT: Vehicle_registration_number_for_driver_of_age 21
+OUTPUT: KA-01-HH-1234,PB-01-HH-1234
+
+INPUT: Park AZ-01-UH-6734 driver_age 25
+OUTPUT: Allocated slot number: 4
+
+INPUT: Park KA-61-YG-6424 driver_age 36
+OUTPUT: Allocated slot number: 5
+
+INPUT: Park RD-56-BT-9548 driver_age 47
+OUTPUT: Allocated slot number: 6
+
+INPUT: Park QS-56-VR-7634 driver_age 65
+OUTPUT: Sorry, parking lot is full
